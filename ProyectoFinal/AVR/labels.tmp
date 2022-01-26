@@ -1,0 +1,49 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <reset><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>42</LINE></reset>
+  <main><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>48</LINE></main>
+  <mueve><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>103</LINE></mueve>
+  <borra><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>183</LINE></borra>
+  <barre><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>89</LINE></barre>
+  <config_io><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>66</LINE></config_io>
+  <texto0><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>86</LINE></texto0>
+  <uno><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>61</LINE></uno>
+  <dos><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>97</LINE></dos>
+  <K7><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>164</LINE></K7>
+  <K4><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>158</LINE></K4>
+  <K1><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>152</LINE></K1>
+  <KB><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>172</LINE></KB>
+  <K8><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>166</LINE></K8>
+  <K5><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>160</LINE></K5>
+  <K2><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>154</LINE></K2>
+  <K0><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>150</LINE></K0>
+  <K9><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>168</LINE></K9>
+  <K6><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>162</LINE></K6>
+  <K3><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>156</LINE></K3>
+  <KEQU><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>180</LINE></KEQU>
+  <KA><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>170</LINE></KA>
+  <KRES><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>176</LINE></KRES>
+  <KSUM><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>174</LINE></KSUM>
+  <KMUL><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>178</LINE></KMUL>
+  <suelta><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\ProyectoFinal\AVR\TecDig_fin.asm</FILE><LINE>145</LINE></suelta>
+ </LABELS>
+</ASSEMBLER_INFO>
