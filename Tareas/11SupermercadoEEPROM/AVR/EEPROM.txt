@@ -1,0 +1,48 @@
+	.include"m8535def.inc"
+	.def dato = r16
+	.def dirh = r18
+	.def dirl = r17
+	.def aux = r19
+.macro eeprw
+	ldi dirh, @0
+	ldi dirl, @1
+	ldi dato, @2
+	rcall EEPROM_write
+.endm
+
+.macro eeprr
+	ldi dirh, @0
+	ldi dirl, @1
+	rcall EEPROM_read
+.endm
+
+reset:
+	ldi aux, low(ramend)
+	out spl, aux
+	ldi aux, high(ramend)
+	out sph, aux
+	eeprw $00, $00, $05
+	eeprw $00, $01, $07
+	eeprr $00, $00
+	mov aux, dato
+
+fin:
+	rjmp fin
+
+EEPROM_read:
+	sbic EECR, EEWE
+	rjmp EEPROM_read
+	out EEARH, r18
+	out EEARL, r17
+	sbi EECR, EERE
+	in r16, EEDR
+	ret
+
+EEPROM_write:
+	sbic EECR, EEWE
+	rjmp EEPROM_write
+	out EEARH, r18
+	out EEARL, r17
+	sbi EECR, EEMWE
+	sbi EECR, EEWE
+	ret

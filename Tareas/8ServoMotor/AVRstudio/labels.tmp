@@ -1,0 +1,42 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <checa><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>11</LINE></checa>
+  <cero><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>30</LINE></cero>
+  <veinte5><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>47</LINE></veinte5>
+  <cincuenta1><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>65</LINE></cincuenta1>
+  <setenta7><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>84</LINE></setenta7>
+  <cien2><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>104</LINE></cien2>
+  <cien28><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>125</LINE></cien28>
+  <cien54><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>147</LINE></cien54>
+  <cien80><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>171</LINE></cien80>
+  <medms><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>196</LINE></medms>
+  <cta0><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>41</LINE></cta0>
+  <cta1><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>59</LINE></cta1>
+  <cta2><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>78</LINE></cta2>
+  <cta3><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>98</LINE></cta3>
+  <cta4><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>119</LINE></cta4>
+  <cta5><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>141</LINE></cta5>
+  <cta6><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>165</LINE></cta6>
+  <cta7><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>190</LINE></cta7>
+  <L1><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\8ServoMotor\AVRstudio\ServoMotor.asm</FILE><LINE>203</LINE></L1>
+ </LABELS>
+</ASSEMBLER_INFO>

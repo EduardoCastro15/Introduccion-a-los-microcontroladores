@@ -1,0 +1,77 @@
+.include"m8535def.inc"
+.def aux = r16
+.def aux2 = r17
+.def int0_ini = r18
+.def int1_ini = r19
+.def int2_ini = r20
+.def conteo_cli = r21
+.def const5 = r22
+
+.macro inistack
+	ldi @0,low(RAMEND)
+	out spl,@0
+	ldi @0,high(RAMEND)
+	out sph,@0
+.endm
+
+reset:
+	rjmp main
+	.org $004
+	rjmp pulse
+	.org $008
+	rjmp stop
+	rjmp start
+
+main:
+	inistack aux
+	ser aux
+	out ddra, aux
+	out ddrd, aux
+	out portb, aux
+	sei
+	ser aux2
+	clr conteo_cli
+	ldi const5, 200
+	ldi aux, $FB
+	out tcnt0, aux
+	ldi aux, $06
+	out tccr0, aux
+	ldi aux, 1
+	out timsk, aux
+
+loop:
+	out portd, conteo_cli
+	rjmp loop
+
+start:
+	ldi int2_ini,$B8
+	out tcnt2, int2_ini
+	ldi int1_ini,$B3
+	out tcnt1h, int1_ini
+	ldi int1_ini,$B4
+	out tcnt1l, int1_ini
+	ldi aux, $45
+	out timsk, aux
+	ldi aux,3
+	out tccr2, aux
+	ldi aux,3
+	out tccr1b, aux
+	reti
+
+pulse:
+	out tcnt2, int2_ini
+	in aux, pina
+	eor aux, aux2
+	out porta, aux
+	reti
+	
+stop:
+	ldi aux,0
+	out tccr2, aux
+	out tccr1b, aux
+	clr aux
+	out porta, aux
+	ldi aux, $FB
+	out tcnt0, aux
+	add conteo_cli, const5
+	reti
