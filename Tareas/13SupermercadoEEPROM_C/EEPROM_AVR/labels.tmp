@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>C:\Users\Scarlett Raln\Desktop\Introduccion a Micros\Timbre v3 ejercicio\EEPROM_AVR</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Scarlett Raln\Desktop\Introduccion a Micros\Timbre v3 ejercicio\EEPROM_AVR\eeprom_ejemplo.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Scarlett Raln\Desktop\Introduccion a Micros\Timbre v3 ejercicio\EEPROM_AVR\eeprom_ejemplo.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\Scarlett Raln\Desktop\Introduccion a Micros\Timbre v3 ejercicio\EEPROM_AVR\eeprom_ejemplo.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\Scarlett Raln\Desktop\Introduccion a Micros\Timbre v3 ejercicio\EEPROM_AVR\eeprom_ejemplo.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <reset><FILE>C:\Users\Scarlett Raln\Desktop\Introduccion a Micros\Timbre v3 ejercicio\EEPROM_AVR\eeprom_ejemplo.asm</FILE><LINE>17</LINE></reset>
+  <EEPROM_write><FILE>C:\Users\Scarlett Raln\Desktop\Introduccion a Micros\Timbre v3 ejercicio\EEPROM_AVR\eeprom_ejemplo.asm</FILE><LINE>38</LINE></EEPROM_write>
+  <EEPROM_read><FILE>C:\Users\Scarlett Raln\Desktop\Introduccion a Micros\Timbre v3 ejercicio\EEPROM_AVR\eeprom_ejemplo.asm</FILE><LINE>53</LINE></EEPROM_read>
+  <fin><FILE>C:\Users\Scarlett Raln\Desktop\Introduccion a Micros\Timbre v3 ejercicio\EEPROM_AVR\eeprom_ejemplo.asm</FILE><LINE>35</LINE></fin>
+ </LABELS>
+</ASSEMBLER_INFO>

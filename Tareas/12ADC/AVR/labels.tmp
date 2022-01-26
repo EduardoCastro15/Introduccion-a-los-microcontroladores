@@ -1,0 +1,61 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Start><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>32</LINE></Start>
+  <cuenta><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>83</LINE></cuenta>
+  <barre><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>66</LINE></barre>
+  <CONV><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>61</LINE></CONV>
+  <Loop><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>57</LINE></Loop>
+  <nbarre><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>77</LINE></nbarre>
+  <sss><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>71</LINE></sss>
+  <cta0><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>128</LINE></cta0>
+  <cta1><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>131</LINE></cta1>
+  <cta2><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>134</LINE></cta2>
+  <cta3><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>112</LINE></cta3>
+  <cta4><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>114</LINE></cta4>
+  <cta5><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>116</LINE></cta5>
+  <cta6><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>118</LINE></cta6>
+  <cta7><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>120</LINE></cta7>
+  <cta8><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>122</LINE></cta8>
+  <cta9><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>124</LINE></cta9>
+  <ctax><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>126</LINE></ctax>
+  <ncta><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>110</LINE></ncta>
+  <cta31><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>137</LINE></cta31>
+  <cta41><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>140</LINE></cta41>
+  <cta51><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>143</LINE></cta51>
+  <cta61><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>146</LINE></cta61>
+  <cta71><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>149</LINE></cta71>
+  <cta81><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>152</LINE></cta81>
+  <cta91><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>155</LINE></cta91>
+  <ctax1><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>158</LINE></ctax1>
+  <cero><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>162</LINE></cero>
+  <uno><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>164</LINE></uno>
+  <dos><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>166</LINE></dos>
+  <tres><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>168</LINE></tres>
+  <cuatro><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>170</LINE></cuatro>
+  <cinco><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>172</LINE></cinco>
+  <seis><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>174</LINE></seis>
+  <siete><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>176</LINE></siete>
+  <ocho><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>178</LINE></ocho>
+  <nueve><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>180</LINE></nueve>
+  <equis><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\12ADC\AVR\ADC.asm</FILE><LINE>182</LINE></equis>
+ </LABELS>
+</ASSEMBLER_INFO>
