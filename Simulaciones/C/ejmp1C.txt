@@ -1,0 +1,106 @@
+
+
+
+
+
+
+
+
+
+#include<avr/io.h>
+#define step1  8
+#define step2  4
+#define step3  2
+#define step4  1
+void config_io(void){
+	DDRC = 0x0F;
+	DDRD = 0b11111011;
+	PORTD = _BV(PD2);XXXXX1XX
+}
+void retardo(void){
+	int i;
+	for(i=0; i<10000; i++);
+}
+void secuencia1(void){
+	PORTC = step1; 00001000
+	retardo();
+	PORTC = step2; 00000100
+	retardo();
+	PORTC = step3; 00000010
+	retardo();
+	PORTC = step4; 00000001
+	retardo();
+}
+void secuencia2(void){
+	PORTC = step4; 00000001
+	retardo();
+	PORTC = step3; 00000010
+	retardo();
+	PORTC = step2; 00000100
+	retardo();
+	PORTC = step1; 00001000
+	retardo();
+}
+int main(void){
+	config_io();
+	while(1){
+		switch(PIND){
+			case(4):
+				secuencia1();
+				break;
+			case(0):
+				secuencia2();
+				break;
+		}
+	}
+}
+
+
+#include<avr/io.h>
+#include <util/delay.h>
+#define step1  8
+#define step2  4
+#define step3  2
+#define step4  1
+void config_io(void){
+	DDRC = 0x0F;
+	DDRD = 0b11111011;
+	PORTD = _BV(PD2);
+}
+void retardo(void){
+	int i;
+	for(i=0; i<25000; i++);
+	}
+void secuencia1(void){
+	PORTC = step1; 
+	_delay_ms (500);
+	PORTC = step2; 
+	_delay_ms (500);
+	PORTC = step3; 
+	_delay_ms (500);
+	PORTC = step4; 
+	_delay_ms (500);
+}
+void secuencia2(void){
+	PORTC = step4; 
+	_delay_ms (500);
+	PORTC = step3; 
+	_delay_ms (500);
+	PORTC = step2; 
+	_delay_ms (500);
+	PORTC = step1; 
+	_delay_ms (500);
+}
+int main(void){
+	config_io();
+	while(1){
+		switch(PIND){
+			case(4):
+				secuencia1();
+				break;
+			case(0):
+				secuencia2();
+				break;
+		}
+	}
+}
