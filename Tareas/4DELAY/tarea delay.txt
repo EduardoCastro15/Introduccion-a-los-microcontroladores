@@ -1,0 +1,40 @@
+Escribe un programa para tener un contador de 0 a 9 de forma
+ciclica en un display de 7 segmentos catodo común, conectado
+al puerto A del ATMega8535, la cuenta deberá incrementarse
+a cada 0.75 segundos.
+
+enviar a :  https://www.dropbox.com/request/I7y5Sp75Y9WFwfrUiZEo
+
+El programa hecho en clase es el siguiente:
+
+.include"m8535def.inc"
+.def aux = r16
+.def contador = r18
+	ldi aux,low(RAMEND)
+	out spl,aux
+	ldi aux,high(RAMEND)
+	out sph,aux
+	ser aux
+	out ddra,aux
+	clr contador
+cuatro:
+	out porta,contador
+	rcall retardo
+	inc contador
+	rjmp cuatro
+retardo:
+
+	push contador
+    ldi  r18, 3
+    ldi  r19, 138
+    ldi  r20, 81
+L1: dec  r20
+    brne L1
+    dec  r19
+    brne L1
+    dec  r18
+    brne L1
+    nop
+	nop
+	pop contador   
+	ret

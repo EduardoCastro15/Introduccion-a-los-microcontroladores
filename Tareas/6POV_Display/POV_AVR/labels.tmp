@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <reset><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.asm</FILE><LINE>5</LINE></reset>
+  <main><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.asm</FILE><LINE>9</LINE></main>
+  <barre><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.asm</FILE><LINE>25</LINE></barre>
+  <config_io><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.asm</FILE><LINE>43</LINE></config_io>
+  <datos><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.asm</FILE><LINE>23</LINE></datos>
+  <ciclo><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.asm</FILE><LINE>18</LINE></ciclo>
+  <otro><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.asm</FILE><LINE>37</LINE></otro>
+  <sal><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\POV_Display\POV_AVR\POV.asm</FILE><LINE>35</LINE></sal>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\DELAY\AVR_DELAY</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\DELAY\AVR_DELAY\DELAY.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\DELAY\AVR_DELAY\DELAY.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\DELAY\AVR_DELAY\DELAY.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\DELAY\AVR_DELAY\DELAY.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <cuenta><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\DELAY\AVR_DELAY\DELAY.asm</FILE><LINE>34</LINE></cuenta>
+  <retardo><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\DELAY\AVR_DELAY\DELAY.asm</FILE><LINE>44</LINE></retardo>
+  <reinicio><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\DELAY\AVR_DELAY\DELAY.asm</FILE><LINE>59</LINE></reinicio>
+  <L1><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\DELAY\AVR_DELAY\DELAY.asm</FILE><LINE>49</LINE></L1>
+ </LABELS>
+</ASSEMBLER_INFO>

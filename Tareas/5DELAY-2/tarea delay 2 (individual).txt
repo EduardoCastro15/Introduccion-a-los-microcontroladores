@@ -1,0 +1,9 @@
+Escribe un programa para tener un contador de 0 a 9 de forma
+ciclica en un display de 7 segmentos catodo común, conectado
+al puerto A del ATMega8535, la cuenta deberá incrementarse
+a cada 0.75 segundos.
+
+usar una subrutina de decodificación donde esta utilice una tavla de decodificación ubicada en memoria de programa
+(hacer uso de la instrucción LPM)
+
+subirla de forma individual a: https://www.dropbox.com/request/E7tXOM9AnRJ7lkopSZUB

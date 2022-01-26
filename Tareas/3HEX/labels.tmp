@@ -1,0 +1,24 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\HEX</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\HEX\HEX.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\HEX\HEX.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\HEX\HEX.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\HEX\HEX.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <lee><FILE>C:\Users\georg\Desktop\ESCOM\8vo Semestre\Micros\Tareas\HEX\HEX.asm</FILE><LINE>38</LINE></lee>
+ </LABELS>
+</ASSEMBLER_INFO>
